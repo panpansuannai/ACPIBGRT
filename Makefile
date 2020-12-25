@@ -17,4 +17,4 @@ main.so:main.o
 main.o:main.c
 	$(CC) $(CFLAGS) -o main.o main.c
 clean:
-	rm main.o main.efi main.so
+	rm main.o main.so
